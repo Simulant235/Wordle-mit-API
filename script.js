@@ -65,7 +65,7 @@ function initGame() {
 
 // Get current guess
 function getCurrentGuess() {
-    const tiles = document.querySelectorAll(`[data-row="${currentRow}"]`);
+    const tiles = document.querySelectorAll(`.tile[data-row="${currentRow}"]`);
     let guess = '';
     tiles.forEach(tile => {
         if (tile.textContent) {
@@ -166,7 +166,7 @@ async function checkGuess() {
     }
     
     // Reveal tiles with animation
-    const tiles = document.querySelectorAll(`[data-row="${currentRow}"]`);
+    const tiles = document.querySelectorAll(`.tile[data-row="${currentRow}"]`);
     const letterCount = {};
     const guessArray = guess.split('');
     const targetArray = targetWord.split('');
