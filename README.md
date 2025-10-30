@@ -1,5 +1,15 @@
-# Wordle API Game
-
-Minimalistische Wordlegame in HTML, CSS und JavaScript: Spieler gibt ein Fünf-Buchstaben-Wort ein, das per API geprüft wird. Richtige Buchstaben werden grün, falsche Position gelb, nicht enthalten grau angezeigt; Animationen und Fehlerprüfungen inklusive.
-
-[Wordle Screenshot]([https://example.com/dein-bild.png](https://i.imgflip.com/aaota3.gif))
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Wordle API Game</title>
+</head>
+<body>
+  <h1>Minimalistische Wordle-Variante</h1>
+  <p>
+    Spieler gibt ein Fünf-Buchstaben-Wort ein, das per API geprüft wird. 
+    Richtige Buchstaben werden grün, falsche Position gelb, nicht enthalten grau angezeigt; 
+    Animationen und Fehlerprüfungen inklusive.
+  </p>
+  <img src="https://example.com/dein-bild.jpg" alt="Screenshot der Wordle-Variante">
+</body>
+</html>
